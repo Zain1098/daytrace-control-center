@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function AccessDenied(){return <main className="login"><section className="login-card"><span className="status warn">Access denied</span><h1>Owner access required</h1><p className="footnote">This account is authenticated but is not in the DayTrace platform-admin allowlist. No dashboard information has been shown.</p><Link className="primary" href="/login" style={{display:"inline-block",textAlign:"center"}}>Return to sign in</Link></section></main>}
